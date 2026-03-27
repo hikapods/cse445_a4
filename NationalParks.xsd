@@ -5,14 +5,8 @@
    elementFormDefault="qualified"
    attributeFormDefault="unqualified">
 
-   <xsd:annotation>
-      <xsd:documentation xml:lang="en">
-         National Parks Directory - CSE445 Assignment 4
-      </xsd:documentation>
-   </xsd:annotation>
-
-   <!-- root element -->
-   <xsd:element name="NationalParks" type="NationalParksType"/>
+   <!-- root el -->
+<xsd:element name="NationalParks" type="NationalParksType"/>
 
    <!-- holds all the parks -->
    <xsd:complexType name="NationalParksType">
@@ -21,7 +15,7 @@
       </xsd:sequence>
    </xsd:complexType>
 
-   <!-- one park entry so rating is optonal so some parks can skip it -->
+   <!-- one park entry so rating is optonal soparks can skip it -->
    <xsd:complexType name="NationalParkType">
       <xsd:sequence>
          <xsd:element name="Name"    type="xsd:string"  minOccurs="1" maxOccurs="1"/>
@@ -30,7 +24,6 @@
       </xsd:sequence>
       <xsd:attribute name="Rating" type="xsd:string" use="optional"/>
    </xsd:complexType>
-
    <!-- address breakdown aNearestAirport is optional -->
    <xsd:complexType name="AddressType">
       <xsd:sequence>
