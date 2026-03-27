@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NationalParks
+   xmlns="http://hikapods.github.io/cse445_a4"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://hikapods.github.io/cse445_a4 NationalParks.xsd">
+
+   <!-- ex from figure 1 3 phones -->
+   <NationalPark Rating="4.9">
+      <Name>Grand Canyon</Name>
+      <Phone>928-638-7496</Phone>
+      <Phone>888-297-2757</Phone>
+      <Phone>866-499-2574</Phone>
+      <Address NearestAirport="FLG">
+         <Number>8</Number>
+         <Street>S Entrance Road</Street>
+         <City>Grand Canyon Village</City>
+         <State>AZ</State>
+         <Zip>86023</Zip>
+      </Address>
+   </NationalPark>
+
+   <!-- 2 phones -->
+   <NationalPark Rating="4.8">
+      <Name>Zion National Park</Name>
+      <Phone>435-772-3256</Phone>
+      <Phone>877-444-6777</Phone>
+      <Address NearestAirport="SGU">
+         <Number>1</Number>
+         <Street>Zion Park Blvd</Street>
+         <City>Springdale</City>
+         <State>UT</State>
+         <Zip>84767</Zip>
+      </Address>
+   </NationalPark>
+
+   <!-- no nearestAirport -->
+   <NationalPark Rating="4.7">
+      <Name>Olympic National Park</Name>
+      <Phone>360-565-3130</Phone>
+      <Address>
+         <Number>3002</Number>
+         <Street>Mount Angeles Road</Street>
+         <City>Port Angeles</City>
+         <State>WA</State>
+         <Zip>98362</Zip>
+      </Address>
+   </NationalPark>
+
+   <NationalPark Rating="4.8">
+      <Name>Acadia National Park</Name>
+      <Phone>207-288-3338</Phone>
+      <Address NearestAirport="BHB">
+         <Number>25</Number>
+         <Street>Visitor Center Road</Street>
+         <City>Bar Harbor</City>
+         <State>ME</State>
+         <Zip>04609</Zip>
+      </Address>
+   </NationalPark>
+
+   <!-- no nearest airport -->
+   <NationalPark Rating="4.6">
+      <Name>Joshua Tree National Park</Name>
+      <Phone>760-367-5500</Phone>
+      <Address>
+         <Number>74485</Number>
+         <Street>National Park Drive</Street>
+         <City>Twentynine Palms</City>
+         <State>CA</State>
+         <Zip>92277</Zip>
+      </Address>
+   </NationalPark>
+
+   <!-- 2 phones -->
+   <NationalPark Rating="4.7">
+      <Name>Great Smoky Mountains National Park</Name>
+      <Phone>865-436-1200</Phone>
+      <Phone>865-436-1294</Phone>
+      <Address NearestAirport="TYS">
+         <Number>107</Number>
+         <Street>Park Headquarters Road</Street>
+         <City>Gatlinburg</City>
+         <State>TN</State>
+         <Zip>37738</Zip>
+      </Address>
+   </NationalPark>
+
+   <!-- no Nearest Airport -->
+   <NationalPark Rating="4.8">
+      <Name>Crater Lake National Park</Name>
+      <Phone>541-594-3000</Phone>
+      <Address>
+         <Number>1</Number>
+         <Street>Sager Building</Street>
+         <City>Crater Lake</City>
+         <State>OR</State>
+         <Zip>97604</Zip>
+      </Address>
+   </NationalPark>
+
+   <NationalPark Rating="4.6">
+      <Name>Shenandoah National Park</Name>
+      <Phone>540-999-3500</Phone>
+      <Address NearestAirport="IAD">
+         <Number>3655</Number>
+         <Street>US Highway 211 East</Street>
+         <City>Luray</City>
+         <State>VA</State>
+         <Zip>22835</Zip>
+      </Address>
+   </NationalPark>
+
+   <NationalPark>
+      <Name>Badlands National Park</Name>
+      <Phone>605-433-5361</Phone>
+      <Address>
+         <Number>25216</Number>
+         <Street>Ben Reifel Road</Street>
+         <City>Interior</City>
+         <State>SD</State>
+         <Zip>57750</Zip>
+      </Address>
+   </NationalPark>
+
+   <!-- 2 phones, no rating -->
+   <NationalPark>
+      <Name>Cuyahoga Valley National Park</Name>
+      <Phone>330-657-2752</Phone>
+      <Phone>800-445-9667</Phone>
+      <Address NearestAirport="CLE">
+         <Number>15610</Number>
+         <Street>Vaughn Road</Street>
+         <City>Brecksville</City>
+         <State>OH</State>
+         <Zip>44141</Zip>
+      </Address>
+   </NationalPark>
+
+   <NationalPark Rating="4.5">
+      <Name>Guadalupe Mountains National Park</Name>
+      <Phone>915-828-3251</Phone>
+      <Address NearestAirport="ELP">
+         <Number>400</Number>
+         <Street>Pine Canyon Road</Street>
+         <City>Salt Flat</City>
+         <State>TX</State>
+         <Zip>79847</Zip>
+      </Address>
+   </NationalPark>
+
+</NationalParks>
