@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- error 1: root is NationalPark instead of NationalParks -->
+
+<!-- error: root is NationalPark instead of NationalParks -->
 <NationalPark
    xmlns="http://hikapods.github.io/cse445_a4"
    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -20,7 +21,7 @@
       </Address>
    </NationalPark>
 
-   <!-- error 2: mumber element is missing (required) -->
+   <!-- error: # element is missing -->
    <NationalPark Rating="4.8">
       <Name>Zion National Park</Name>
       <Phone>435-772-3256</Phone>
@@ -32,7 +33,7 @@
       </Address>
    </NationalPark>
 
-   <!-- error 3: no phone at all -->
+   <!-- error: no phone at all -->
    <NationalPark Rating="4.7">
       <Name>Olympic National Park</Name>
       <Address>
@@ -44,7 +45,7 @@
       </Address>
    </NationalPark>
 
-   <!-- error 4: addy has no closing tag -->
+   <!-- error: addy has no closing tag -->
    <NationalPark Rating="4.8">
       <Name>Acadia National Park</Name>
       <Phone>207-288-3338</Phone>
@@ -55,7 +56,7 @@
          <State>ME</State>
          <Zip>04609</Zip>
 
-   <!-- error 5: two Name elements -->
+   <!-- error: two Name elements -->
    <NationalPark Rating="4.6">
       <Name>Joshua Tree National Park</Name>
       <Name>Joshua Tree</Name>
